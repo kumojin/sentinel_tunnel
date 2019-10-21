@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/DivPro/sentinel_tunnel/cmd/config"
-	"github.com/DivPro/sentinel_tunnel/cmd/resolver"
-	"github.com/DivPro/sentinel_tunnel/cmd/server"
-	"github.com/rs/zerolog/log"
 	"os"
+
+	"github.com/kumojin/sentinel_tunnel/pkg/config"
+	"github.com/kumojin/sentinel_tunnel/pkg/resolver"
+	"github.com/kumojin/sentinel_tunnel/pkg/server"
+	"github.com/rs/zerolog/log"
 )
 
 func main() {

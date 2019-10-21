@@ -2,12 +2,14 @@ package server
 
 import (
 	"fmt"
-	"github.com/DivPro/sentinel_tunnel/cmd/config"
-	"github.com/DivPro/sentinel_tunnel/cmd/resolver"
-	"github.com/rs/zerolog/log"
-	"golang.org/x/sync/errgroup"
 	"io"
 	"net"
+
+	"github.com/kumojin/sentinel_tunnel/pkg/config"
+	"github.com/kumojin/sentinel_tunnel/pkg/resolver"
+
+	"github.com/rs/zerolog/log"
+	"golang.org/x/sync/errgroup"
 )
 
 type Server interface {
