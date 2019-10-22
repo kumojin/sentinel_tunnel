@@ -73,3 +73,6 @@ $ ./sentinel_tunnel <config_file_path>
 ## License
 
 [2-Clause BSD](LICENSE)
+
+## Credits
+Forked from [sentinel_tunnel](https://github.com/redislabs/sentinel_tunnel)

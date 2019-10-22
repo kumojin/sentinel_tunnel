@@ -10,6 +10,7 @@ require (
 	github.com/onsi/gomega v1.7.0 // indirect
 	github.com/pkg/errors v0.8.1
 	github.com/rs/zerolog v1.15.0
+	github.com/stretchr/testify v1.4.0
 	golang.org/x/arch v0.0.0-20190927153633-4e8777c89be4 // indirect
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
 )
